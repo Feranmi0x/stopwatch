@@ -1,0 +1,50 @@
+body {
+    background: url(./img-gym-bg.png) no-repeat center center/ cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 25%;
+    background: white;
+    border-radius: 30px;
+    border: 2px solid rgb(229, 222, 222);
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 10px;
+}
+
+.timer {
+    font-size: 72px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 5px;
+    border: none;
+    padding: 0;
+}
+
+button i {
+    font-size: 1.4rem;
+    color: white;
+    padding: 8px;
+}
+
+#play {
+    background: green;
+    width: 21px;
+}
+
+#reset {
+    background: red;
+}
+
+#pause {
+    background: orange;
+    width: 21px;
+}
